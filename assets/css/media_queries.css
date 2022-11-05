@@ -1,19 +1,7 @@
-/*-----------------------------------*\
-  #media_queries.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 @codewithsadee 
- */
-
-
-
-
-
 @media (min-width: 375px) {
 
   /**
-   * VARIABLE 
+   * VARIABLE
    */
 
   :root {
@@ -26,14 +14,11 @@
 
   }
 
-
-
   .section-subtitle { font-size: var(--fs-7); }
 
 
-
   /**
-   * HOME 
+   * HOME
    */
 
   .home-right .icon-1 { top: 250px; }
@@ -59,7 +44,7 @@
 
 
   /**
-   * ABOUT 
+   * ABOUT
    */
 
   .about-left .icon-1 { top: 150px; }
@@ -72,14 +57,10 @@
 
 }
 
-
-
-
-
 @media (min-width: 575px) {
 
   /**
-   * VARIABLE 
+   * VARIABLE
    */
 
   :root { --px: 40px; }
@@ -87,27 +68,23 @@
 
 
   /**
-   * HOME 
+   * HOME
    */
 
   .home .shape-1 img { width: 100px; }
 
   .home .shape-3 img { width: 250px; }
 
-
-
   /**
-   * ABOUT 
+   * ABOUT
    */
 
   .about-left .icon-1 { top: 200px; }
 
   .about-left .icon-2 { top: 350px; }
 
-
-
   /**
-   * EVENT 
+   * EVENT
    */
 
   .event .play { right: -20px; }
@@ -134,24 +111,18 @@
 
   .event-card .event-name { text-align: left; }
 
-
-
   /**
-   * CONTACT 
+   * CONTACT
    */
 
   .contact h2 { font-size: 37px; }
 
 }
 
-
-
-
-
 @media (min-width: 767px) {
 
   /**
-   * VARIABLE 
+   * VARIABLE
    */
 
   :root {
@@ -164,8 +135,6 @@
 
   }
 
-
-
   /**
    * #CATEGORY, COURSE, INSTRUCTOR, BLOG, FOOTER
    */
@@ -176,61 +145,47 @@
   .blog-grid,
   .footer-grid { grid-template-columns: 1fr 1fr; }
 
-
-
   /**
-   * #EVENT 
+   * #EVENT
    */
 
   .event .play { right: -100px; }
 
-
-
   /**
-   * #CONTACT 
+   * #CONTACT
    */
 
   .contact-card { padding: 40px 60px; }
 
 }
 
-
-
-
-
 @media (min-width: 850px) {
 
   /**
-   * #VARIABLE 
+   * #VARIABLE
    */
 
   :root { --px: 140px; }
 
 }
 
-
-
-
-
 @media (min-width: 992px) {
 
   /**
-   * #VARIABLE 
+   * #VARIABLE
    */
 
   :root {
 
     --fs-5: 16px;
-    
+
     --px: 30px;
     --py: 120px;
 
   }
 
-
-
   /**
-   * #HEADER 
+   * #HEADER
    */
 
   .navbar { padding: 20px var(--px); }
@@ -254,10 +209,8 @@
 
   .navbar .btn { display: block; }
 
-
-
   /**
-   * #HOME 
+   * #HOME
    */
 
   .home {
@@ -272,21 +225,15 @@
   }
 
   .home::after { top: 0; }
-
   .home-left { margin-bottom: 0; }
-
   .home .section-subtitle,
   .main-heading,
   .home .section-text { text-align: left; }
-
   .home .section-text { margin: 0 0 30px; }
-
   .home-btn-group { justify-content: start; }
 
-
-
   /**
-   * #ABOUT 
+   * #ABOUT
    */
 
   .about {
@@ -302,10 +249,8 @@
 
   .about-right { padding-top: 0; }
 
-
-
   /**
-   * #COURSE 
+   * #COURSE
    */
 
   .course { position: relative; }
@@ -324,10 +269,8 @@
     right: var(--px);
   }
 
-
-
   /**
-   * #EVENT 
+   * #EVENT
    */
 
   .event {
@@ -341,10 +284,8 @@
 
   .event .play { right: -10px; }
 
-
-
   /**
-   * #FEATURES 
+   * #FEATURES
    */
 
   .features {
@@ -354,10 +295,8 @@
 
   .features-right { height: auto; }
 
-
-
   /**
-   * #TESTIMONIALS 
+   * #TESTIMONIALS
    */
 
   .testimonials {
@@ -367,18 +306,14 @@
     align-items: center;
   }
 
-
-
   /**
-   * #BLOG 
+   * #BLOG
    */
 
   .blog-grid { grid-template-columns: repeat(3, 1fr); }
 
-
-
   /**
-   * #CONTACT 
+   * #CONTACT
    */
 
   .contact-card { grid-template-columns: 1fr 1fr; }
@@ -390,24 +325,18 @@
     align-self: center;
   }
 
-
-
   /**
-   * #FOOTER 
+   * #FOOTER
    */
 
   .footer-grid { grid-template-columns: 2fr 1fr 1fr 2fr; }
 
 }
 
-
-
-
-
 @media (min-width: 1200px) {
 
   /**
-   * #VARIABLE 
+   * #VARIABLE
    */
 
   :root {
@@ -419,49 +348,36 @@
     --fs-7: 22px;
 
     --px: 120px;
-
   }
 
-
-
   /**
-   * #HOME 
+   * #HOME
    */
 
   .home-left { padding-bottom: var(--py); }
 
   .home .section-text { font-size: 18px; }
 
-
-
   /**
-   * #CATEGORY 
+   * #CATEGORY
    */
 
   .category .course-item-group { grid-template-columns: repeat(3, 1fr); }
 
-
-
   /**
-   * #EVENT 
+   * #EVENT
    */
 
   .event { grid-template-columns: 1fr 1fr; }
 
-
-
   /**
-   * #INSTRUCTOR 
+   * #INSTRUCTOR
    */
-
   .instructor-grid { grid-template-columns: repeat(4, 1fr); }
 
-
-
   /**
-   * #CONTACT 
+   * #CONTACT
    */
 
   .contact-card h2 { font-size: 45px; }
-
 }

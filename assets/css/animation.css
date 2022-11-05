@@ -1,15 +1,3 @@
-/*-----------------------------------*\
-  #animation.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 @codewithsadee 
- */
-
-
-
-
-
 .drop-anim { animation: drop 2.5s infinite; }
 
 @keyframes drop {

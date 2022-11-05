@@ -1,23 +1,7 @@
-/*-----------------------------------*\
-  #variable.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #VARIABLE
-\*-----------------------------------*/
-
 :root {
 
   /**
-   * colors 
+   * colors
    */
 
   --red-orange-color-wheel: hsl(15, 100%, 55%);
@@ -31,7 +15,7 @@
   --white: hsl(0, 0%, 100%);
 
   /**
-   * typography 
+   * typography
    */
 
   --fs-1: 38px;
@@ -48,14 +32,14 @@
   --fw-9: 900;
 
   /**
-   * spacing 
+   * spacing
    */
 
   --px: 15px;
   --py: 80px;
 
   /**
-   * others 
+   * others
    */
 
   --default-transition: 0.25s ease;
