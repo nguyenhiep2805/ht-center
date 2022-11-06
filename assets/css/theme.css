@@ -78,7 +78,13 @@ body:has(input[name="changeTheme"]:checked) .about {
     background: var(--dark);
 }
 
+
+
 body:has(input[name="changeTheme"]:checked) #about > div.about-right > button > p > a {
+    color: var(--white);
+}
+
+body:has(input[name="changeTheme"]:checked) #about > div.about-right > ul > li > p {
     color: var(--white);
 }
 
