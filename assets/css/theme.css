@@ -113,7 +113,6 @@ body:has(input[name="changeTheme"]:checked) .author-name {
     color: var(--sonic-silver);
 }
 
-
 /* Event */
 body:has(input[name="changeTheme"]:checked) .event {
     background: var(--dark);
@@ -228,9 +227,56 @@ body:has(input[name="changeTheme"]:checked) footer > p > a:hover {
     color: var(--red-orange-color-wheel);
 }
 
-/*input[name="changeTheme"] {*/
-/*    display: none;*/
-/*}*/
+input[name="changeTheme"] {
+
+}
+
+.switch-toggle input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    z-index: -2;
+}
+
+.switch-toggle input[type="checkbox"] + label {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0;
+    cursor: pointer;
+    box-shadow: inset -8px -8px 15px rgba(255,255,255,.6),
+    inset 10px 10px 10px rgba(0,0,0, .25);
+
+}
+
+.switch-toggle input[type="checkbox"] + label::before {
+    position: absolute;
+    content: 'LIGHT';
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+    top: 8px;
+    left: 8px;
+    width: 55px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #d1dad3;
+    box-shadow: -3px -3px 5px rgba(255,255,255,.5),
+    3px 3px 5px rgba(0,0,0, .25);
+    transition: .3s ease-in-out;
+}
+
+.switch-toggle input[type="checkbox"]:checked + label::before {
+    left: 50%;
+    content: 'DARK';
+    color: #fff;
+    background-color: #00b33c;
+    box-shadow: -3px -3px 5px rgba(255,255,255,.5),
+    3px 3px 5px #00b33c;
+}
+
+
 
 
 
