@@ -7,8 +7,6 @@ a > label {
     cursor: pointer;
 }
 
-
-
 body:has(input[name="changeTheme"]:checked) .btn {
     background: var(--ultramarine-blue);
 }
@@ -224,9 +222,9 @@ body:has(input[name="changeTheme"]:checked) footer > p > a:hover {
     color: var(--red-orange-color-wheel);
 }
 
-input[name="changeTheme"] {
-    display: none;
-}
+/*input[name="changeTheme"] {*/
+/*    display: none;*/
+/*}*/
 
 
 
