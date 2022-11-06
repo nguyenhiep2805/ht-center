@@ -13,6 +13,9 @@
   --blue-crayola: hsl(216, 98%, 52%);
   --cultured: hsl(228, 26%, 96%);
   --white: hsl(0, 0%, 100%);
+  --dark: hsl(253, 97%, 19%);
+  --darker: hsl(253, 97%, 17%);
+  --darkest: hsl(253, 97%, 12%);
 
   /**
    * typography

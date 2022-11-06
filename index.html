@@ -5,7 +5,6 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
     <meta name="title" content="HT Center">
     <meta name="keyword" content="AutoCAD, Civil 3D, BIM Revit, Revit, Vẽ kỹ thuật, Nguyễn Quốc Huy, Hiep Code"/>
     <meta property="og:type" content="website">
@@ -13,7 +12,6 @@
     <meta name="description"
           content="HT Center chuyên đào tạo học viên vẽ kỹ thuật (AutoCAD, Civil 3D, BIM Revit) và tính toán trong xây dựng (SAP 2000, RM, MIDAS, Plaxic, Robot, Tekla,...) "/>
     <meta property="og:image" content="https://i.imgur.com/yfkyFC4.png">
-
 
     <!-- Title -->
     <title>HT Center</title>
@@ -23,7 +21,8 @@
     <link rel="icon" href="assets/images/favicon.svg" type="image/x-icon"/>
 
     <!-- Custom CSS Links -->
-    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="./assets/css/main.css"/>
+    <link rel="stylesheet" href="./assets/css/theme.css"/>
     <link rel="stylesheet" href="./assets/css/media_queries.css"/>
     <link rel="stylesheet" href="./assets/css/animation.css"/>
 
@@ -46,7 +45,6 @@
             <div class="navbar-brand">
                 <img src="./assets/images/logo.png" alt="Educator Logo"/>
             </div>
-
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a href="#home">Trang chủ</a>
@@ -60,10 +58,20 @@
                 <li class="nav-item">
                     <a href="#contact">Liên hệ</a>
                 </li>
+                <li class="nav-item">
+                    <a href="#">
+                        <label class="changeTheme">
+                            Chế độ tối
+                            <input type="checkbox" name="changeTheme" id="changeTheme">
+                        </label>
+                    </a>
+                </li>
             </ul>
 
             <button class="btn btn-primary">
-                <p class="btn-text"><a href="#about">Khám phá ngay</a></p>
+                <p class="btn-text">
+                    <a href="#about">Khám phá ngay</a>
+                </p>
                 <span class="square"></span>
             </button>
 
@@ -76,7 +84,6 @@
     </header>
 
     <main>
-
         <!-- #HOME SECTION -->
         <section class="home" id="home">
             <div class="deco-shape shape-1">
@@ -100,9 +107,7 @@
                 <p class="section-subtitle">Chào mừng bạn đến với HT Center</p>
 
                 <h2 class="main-heading">
-                    Học tập với lộ trình
-                    <span class="underline-img"></span>
-                    phù hợp nhất
+                    Học tập với lộ trình <span class="underline-img"></span>phù hợp nhất
                     <img src="./assets/images/banner-line.png" alt="line"
                     />
                 </h2>
@@ -330,22 +335,22 @@
                 <ul class="about-ul">
                     <li>
                         <ion-icon name="checkmark-circle"></ion-icon>
-                        <p>Kiến thức bám sát với thực tế</p>
+                        <p class="description-text">Kiến thức bám sát với thực tế</p>
                     </li>
 
                     <li>
                         <ion-icon name="checkmark-circle"></ion-icon>
-                        <p>Đội ngũ giảng viên giàu tâm huyết</p>
+                        <p class="description-text">Đội ngũ giảng viên giàu tâm huyết</p>
                     </li>
 
                     <li>
                         <ion-icon name="checkmark-circle"></ion-icon>
-                        <p>Hỗ trợ kỹ thuật 24/7</p>
+                        <p class="description-text">Hỗ trợ kỹ thuật 24/7</p>
                     </li>
                 </ul>
 
                 <button class="btn btn-primary">
-                    <p class="btn-text">Khám phá ngay</p>
+                    <p class="btn-text"><a href="#course">Khám phá ngay</a></p>
                     <span class="square"></span>
                 </button>
             </div>
@@ -363,14 +368,14 @@
                         <img src="./assets/images/course-1.jpg" alt="course banner"/>
 
                         <div class="course-tag-box">
-                            <a href="#" class="badge-tag blue">AutoCAD</a>
+                            <a href="#!" class="badge-tag blue">AutoCAD</a>
                         </div>
                     </div>
 
                     <div class="course-content">
                         <h3 class="card-title">
-                            <a href="#"
-                            >AutoCAD dành cho kỹ thuật xây dựng cầu đường và dân dụng</a
+                            <a href="#!"
+                            >AutoCAD kỹ thuật xây dựng cầu đường và dân dụng</a
                             >
                         </h3>
 
@@ -407,21 +412,19 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="course-card">
                     <div class="course-banner">
                         <img src="./assets/images/course-2.jpg" alt="course banner"/>
 
                         <div class="course-tag-box">
-                            <a href="#" class="badge-tag blue">Civil 3D</a>
+                            <a href="#!" class="badge-tag blue">Civil 3D</a>
                         </div>
                     </div>
 
                     <div class="course-content">
                         <h3 class="card-title">
-                            <a href="#"
-                            >Civil 3D dành cho kỹ thuật xây dựng cầu đường và dân
-                                dụng</a
+                            <a href="#!"
+                            >Civil 3D kỹ thuật xây dựng cầu đường và dân dụng</a
                             >
                         </h3>
 
@@ -463,14 +466,14 @@
                         <img src="./assets/images/course-3.jpg" alt="course banner"/>
 
                         <div class="course-tag-box">
-                            <a href="#" class="badge-tag blue">Revit</a>
+                            <a href="#!" class="badge-tag blue">Revit</a>
                         </div>
                     </div>
 
                     <div class="course-content">
                         <h3 class="card-title">
-                            <a href="#"
-                            >Revit dành cho kỹ thuật xây dựng cầu đường và dân dụng</a
+                            <a href="#!"
+                            >Revit kỹ thuật xây dựng cầu đường và dân dụng</a
                             >
                         </h3>
 
@@ -487,12 +490,12 @@
 
                             <div class="rating">
                                 <ion-icon name="star"></ion-icon>
-                                <p>4.8</p>
+                                <p>4.9</p>
                             </div>
                         </div>
 
                         <div class="wrapper">
-                            <div class="course-price">1.350.000đ</div>
+                            <div class="course-price">1.250.000đ</div>
 
                             <div class="enrolled">
                                 <div class="icon-user">
@@ -602,7 +605,7 @@
                         </div>
 
                         <div class="wrapper">
-                            <h3 class="item-title">Vẽ kỹ thuật cơ bản</h3>
+                            <h3 class="item-title">Vẽ kỹ thuật từ cơ bản đến nâng cao</h3>
 
                             <p class="item-text">
                                 Với toàn bộ kiến thức trong mỗi khoá học, chắc chắn rằng bạn sẽ có thể tự tin để vượt
@@ -684,7 +687,11 @@
                         </div>
                     </div>
 
-                    <h4 class="instructor-name">Nguyễn Quốc Huy</h4>
+                    <a href="Nguyen-Quoc-Huy.html"
+                       target="_blank"
+                       class="instructor-name">
+                        Nguyễn Quốc Huy
+                    </a>
 
                     <p class="instructor-title">AutoCAD, BIM Revit</p>
                 </div>
@@ -711,7 +718,11 @@
                         </div>
                     </div>
 
-                    <h4 class="instructor-name">Nguyễn Từ Thắng</h4>
+                    <a href="Nguyen-Tu-Thang.html"
+                       target="_blank"
+                       class="instructor-name">
+                        Nguyễn Từ Thắng
+                    </a>
 
                     <p class="instructor-title">Tính toán (SAP 2000, RM, MIDAS, Plaxic, Robot, Tekla,...)</p>
                 </div>
@@ -738,7 +749,11 @@
                         </div>
                     </div>
 
-                    <h4 class="instructor-name">???</h4>
+                    <a href="#"
+                       target="_blank"
+                       class="instructor-name">
+                        ???
+                    </a>
 
                     <p class="instructor-title">Civil 3D</p>
                 </div>
@@ -765,7 +780,11 @@
                         </div>
                     </div>
 
-                    <h4 class="instructor-name">???</h4>
+                    <a href="#"
+                       target="_blank"
+                       class="instructor-name">
+                        ???
+                    </a>
 
                     <p class="instructor-title">???</p>
                 </div>
@@ -807,9 +826,9 @@
                         </div>
 
                         <div class="client-detail">
-                            <h4 class="client-name">Họ và tên</h4>
+                            <h4 class="client-name">Hoàng Nam</h4>
 
-                            <p class="client-title">Sinh viên</p>
+                            <p class="client-title">Sinh viên Xây dựng</p>
                         </div>
                     </div>
                 </div>
@@ -819,16 +838,9 @@
         <!-- #CONTACT -->
         <section class="contact">
             <div class="contact-card" id="contact">
-                <img
-                        src="./assets/images/cta-bg-img.png"
-                        alt="shape"
-                        class="contact-card-bg"
-                />
-
                 <h2>Bắt đầu ngay, ưu đãi liền tay!</h2>
-
                 <button class="btn btn-primary">
-                    <p class="btn-text">Liên hệ</p>
+                    <p class="btn-text"><a href="#contact">Liên hệ</a></p>
                     <span class="square"></span>
                 </button>
             </div>
@@ -841,7 +853,7 @@
             <div class="grid-item">
                 <div class="footer-logo">
                     <img
-                            src="./assets/images/logo-footer.png"
+                            src="./assets/images/logo.png"
                             alt="educator logo white"
                     />
                 </div>
@@ -924,15 +936,13 @@
 
         </div>
 
-        <p class="copyright">Copyright © 2022
-            <a href="https://bio.nguyenhiep.me" target="_blank">Hiep Code</a>
-            . All rights reserved.
-        </p>
+        <p class="copyright">Copyright © 2022 <a href="https://bio.nguyenhiep.me" target="_blank">Hiep Code</a>. All
+            rights reserved.</p>
     </footer>
 </div>
 
 <!-- Custom JS Link -->
-<script src="./assets/js/script.js"></script>
+<script src="./assets/js/main.js"></script>
 
 <!-- Ionicon Link -->
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

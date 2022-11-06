@@ -1,20 +1,9 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-/*-----------------------------------*\
-  #VARIABLE
-\*-----------------------------------*/
-
 @import url(./variable.css);
 
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
+
 
 *,
 *::before,
@@ -365,8 +354,7 @@ html {
 .home .section-text {
   max-width: 500px;
   text-align: center;
-  margin: auto;
-  margin-bottom: 30px;
+  margin: auto auto 30px;
 }
 
 .home-btn-group {
@@ -652,8 +640,7 @@ html {
 }
 
 .course-card .course-content {
-  padding: 30px;
-  padding-bottom: 20px;
+  padding: 30px 30px 20px;
 }
 
 .course-card .card-title {
@@ -989,8 +976,7 @@ html {
 
 .instructor-card {
   background: hsl(228, 33%, 97%);
-  padding: 20px;
-  padding-bottom: 30px;
+  padding: 20px 20px 30px;
   border-radius: 8px;
   text-align: center;
   transition: var(--default-transition);
@@ -1191,8 +1177,7 @@ html {
 }
 
 .blog-content {
-  padding: 30px;
-  padding-bottom: 20px;
+  padding: 30px 30px 20px;
 }
 
 .blog-title {
@@ -1377,8 +1362,7 @@ footer {
 
 .grid-item .wrapper input {
   width: 100%;
-  padding: 20px 30px;
-  padding-right: 70px;
+  padding: 20px 70px 20px 30px;
   color: var(--oxford-blue);
   font-family: 'Roboto', sans-serif;
   font-size: var(--fs-6);

@@ -1,0 +1,234 @@
+/* Global */
+body:has(input[name="changeTheme"]:checked) h2 {
+    color: var(--white);
+}
+
+a > label {
+    cursor: pointer;
+}
+
+
+
+body:has(input[name="changeTheme"]:checked) .btn {
+    background: var(--ultramarine-blue);
+}
+
+body:has(input[name="changeTheme"]:checked) .container {
+    background: var(--darkest);
+}
+
+body:has(input[name="changeTheme"]:checked) p.section-text {
+    color: var(--white);
+}
+
+body:has(input[name="changeTheme"]:checked) p.description-text {
+    color: var(--white);
+}
+
+body:has(input[name="changeTheme"]:checked) a:hover {
+    color: var(--oxford-blue);
+}
+
+
+/* Navbar */
+body:has(input[name="changeTheme"]:checked) nav {
+    background: var(--darkest);
+}
+
+body:has(input[name="changeTheme"]:checked) .active {
+    background: var(--darkest);
+}
+
+body:has(input[name="changeTheme"]:checked) .nav-toggle-btn {
+    background: var(--ultramarine-blue);
+}
+
+body:has(input[name="changeTheme"]:checked) nav > button.btn-primary > p > a:hover {
+    color: var(--white);
+}
+
+body:has(input[name="changeTheme"]:checked) nav > ul > li > a:hover {
+    color: var(--ultramarine-blue);
+}
+
+body:has(input[name="changeTheme"]:checked) a {
+    color: var(--white);
+}
+
+/* Home */
+body:has(input[name="changeTheme"]:checked) .home {
+    background: var(--dark);
+}
+
+body:has(input[name="changeTheme"]:checked) div.home-left > div > button.btn > p > a:hover {
+    color: var(--white);
+}
+
+
+/* Category */
+body:has(input[name="changeTheme"]:checked) .category {
+    background: var(--darker);
+}
+
+body:has(input[name="changeTheme"]:checked) .course-category-item:hover {
+    background: var(--ultramarine-blue);
+    box-shadow: 0 10px 50px -20px var(--ultramarine-blue);
+}
+
+/* About */
+body:has(input[name="changeTheme"]:checked) .about {
+    background: var(--dark);
+}
+
+body:has(input[name="changeTheme"]:checked) #about > div.about-right > button > p > a {
+    color: var(--white);
+}
+
+/* Course */
+body:has(input[name="changeTheme"]:checked) .course {
+    background: var(--darker);
+}
+
+body:has(input[name="changeTheme"]:checked) .course-content {
+    background: var(--light-gray);
+}
+
+body:has(input[name="changeTheme"]:checked) div.course-content > h3 > a {
+    color: var(--oxford-blue);
+}
+
+body:has(input[name="changeTheme"]:checked) div.course-content > h3 > a:hover {
+    color: var(--ultramarine-blue);
+}
+
+body:has(input[name="changeTheme"]:checked) .course-price {
+    color: var(--ultramarine-blue);
+}
+
+body:has(input[name="changeTheme"]:checked) .author-name {
+    color: var(--sonic-silver);
+}
+
+
+/* Event */
+body:has(input[name="changeTheme"]:checked) .event {
+    background: var(--dark);
+}
+
+body:has(input[name="changeTheme"]:checked) .event-card {
+    background: var(--light-gray);
+}
+
+body:has(input[name="changeTheme"]:checked) div.content-right > a:hover {
+    color: var(--ultramarine-blue) !important;
+}
+
+body:has(input[name="changeTheme"]:checked) div.content-right > a {
+    color: var(--oxford-blue);
+}
+
+body:has(input[name="changeTheme"]:checked) div.content-right > a:hover {
+    color: var(--red-orange-color-wheel);
+}
+
+body:has(input[name="changeTheme"]:checked) .event-card:hover {
+    border-color: var(--ultramarine-blue);
+}
+
+
+/* Features */
+body:has(input[name="changeTheme"]:checked) .features {
+    background: var(--darker);
+}
+
+/* Instructor */
+body:has(input[name="changeTheme"]:checked) .instructor {
+    background: var(--dark);
+}
+
+body:has(input[name="changeTheme"]:checked) .instructor-card {
+    background: var(--light-gray);
+}
+
+body:has(input[name="changeTheme"]:checked) body > div > main > section.instructor > div > div > a:hover {
+    color: var(--ultramarine-blue);
+}
+
+body:has(input[name="changeTheme"]:checked) .instructor-name {
+    color: var(--oxford-blue);
+}
+
+body:has(input[name="changeTheme"]:checked) .social-link a {
+    background: var(--ultramarine-blue);
+}
+
+body:has(input[name="changeTheme"]:checked) .social-link a:hover {
+    background: var(--red-orange-color-wheel);
+}
+
+/* Testimonials */
+body:has(input[name="changeTheme"]:checked) .testimonials {
+    background: var(--darker);
+}
+
+body:has(input[name="changeTheme"]:checked) .testimonials-card {
+    background: var(--light-gray);
+}
+
+body:has(input[name="changeTheme"]:checked) .testimonials-text {
+    color: var(--oxford-blue);
+}
+
+body:has(input[name="changeTheme"]:checked) .client-title {
+    color: var(--ultramarine-blue);
+}
+
+/* Contact */
+body:has(input[name="changeTheme"]:checked) .contact-card {
+    background: var(--red-orange-color-wheel);
+}
+
+body:has(input[name="changeTheme"]:checked) #contact > button > p > a:hover {
+    color: var(--white);
+}
+
+body:has(input[name="changeTheme"]:checked) #contact > #contact > img {
+}
+
+/* Footer */
+body:has(input[name="changeTheme"]:checked) .footer-grid {
+    background: var(--dark);
+}
+
+body:has(input[name="changeTheme"]:checked) div.social-link > a:hover:hover {
+    background: var(--ultramarine-blue);
+}
+
+body:has(input[name="changeTheme"]:checked) .send-btn {
+    background: var(--ultramarine-blue);
+}
+
+body:has(input[name="changeTheme"]:checked) .send-btn:hover {
+    background: var(--red-orange-color-wheel);
+}
+
+body:has(input[name="changeTheme"]:checked) footer > div > ul > li > a:hover {
+    color: var(--ultramarine-blue);
+}
+
+body:has(input[name="changeTheme"]:checked) footer > p > a {
+    color: var(--ultramarine-blue);
+}
+
+body:has(input[name="changeTheme"]:checked) footer > p > a:hover {
+    color: var(--red-orange-color-wheel);
+}
+
+input[name="changeTheme"] {
+    display: none;
+}
+
+
+
+
+
