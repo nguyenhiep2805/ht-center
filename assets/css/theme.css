@@ -271,9 +271,9 @@ input[name="changeTheme"] {
     left: 50%;
     content: 'DARK';
     color: #fff;
-    background-color: #00b33c;
-    box-shadow: -3px -3px 5px rgba(255,255,255,.5),
-    3px 3px 5px #00b33c;
+    background-color: var(--ultramarine-blue);
+    box-shadow: -3px -3px 5px var(--ultramarine-blue),
+    3px 3px 5px var(--ultramarine-blue);
 }
 
 
