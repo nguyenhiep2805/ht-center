@@ -39,7 +39,7 @@ section {
 .teams,
 .contact,
 footer {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 .about .about-content,
 .services .serv-content,
@@ -74,7 +74,7 @@ section .title::after {
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: var(--red-orange-color-wheel)
+    color: var(--red-orange-color-wheel);
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -185,7 +185,7 @@ section .title::after {
     font-size: 27px;
 }
 .home .home-content .text-2 {
-    font-size: 75px;
+    font-size: 45px;
     font-weight: 600;
     margin-left: -3px;
 }
@@ -597,7 +597,7 @@ footer span a:hover {
         font-size: 25px;
     }
     .home .home-content .text-2 {
-        font-size: 70px;
+        font-size: 40px;
     }
     .home .home-content .text-3 {
         font-size: 35px;
