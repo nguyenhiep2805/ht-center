@@ -252,7 +252,7 @@ input[name="changeTheme"] {
 
 .switch-toggle input[type="checkbox"] + label::before {
     position: absolute;
-    content: 'LIGHT';
+    content: 'Sáng';
     font-size: 13px;
     text-align: center;
     line-height: 25px;
@@ -269,7 +269,7 @@ input[name="changeTheme"] {
 
 .switch-toggle input[type="checkbox"]:checked + label::before {
     left: 50%;
-    content: 'DARK';
+    content: 'Tối';
     color: #fff;
     background-color: var(--ultramarine-blue);
     box-shadow: -3px -3px 5px var(--ultramarine-blue),
