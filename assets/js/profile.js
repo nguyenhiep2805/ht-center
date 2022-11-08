@@ -1,73 +1,53 @@
-$(document).ready(function () {
-    $(window).scroll(function () {
-        // sticky navbar on scroll script
-        if (this.scrollY > 20) {
-            $('.navbar').addClass('sticky');
-        } else {
-            $('.navbar').removeClass('sticky');
-        }
-
-        // scroll-up button show/hide script
-        if (this.scrollY > 500) {
-            $('.scroll-up-btn').addClass('show');
-        } else {
-            $('.scroll-up-btn').removeClass('show');
-        }
-    });
-
-    // slide-up script
-    $('.scroll-up-btn').click(function () {
-        $('html').animate({ scrollTop: 0 });
-        // removing smooth scroll on slide-up button click
-        $('html').css('scrollBehavior', 'auto');
-    });
-
-    $('.navbar .menu li a').click(function () {
-        // applying again smooth scroll on menu items click
-        $('html').css('scrollBehavior', 'smooth');
-    });
-
-    // toggle menu/navbar script
-    $('.menu-btn').click(function () {
-        $('.navbar .menu').toggleClass('active');
-        $('.menu-btn i').toggleClass('active');
-    });
-
-    // typing text animation script
-    var typed = new Typed('.typing', {
-        strings: ['Kỹ Sư', 'Giảng Viên'],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true,
-    });
-
-    var typed = new Typed('.typing-2', {
-        strings: ['Kỹ Sư', 'Giảng Viên'],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true,
-    });
-
-    // owl carousel script
-    $('.carousel').owlCarousel({
-        margin: 20,
-        loop: true,
-        autoplay: true,
-        autoplayTimeOut: 2000,
-        autoplayHoverPause: true,
-        responsive: {
-            0: {
-                items: 1,
-                nav: false,
-            },
-            600: {
-                items: 2,
-                nav: false,
-            },
-            1000: {
-                items: 3,
-                nav: false,
-            },
-        },
-    });
-});
+function showabout(){
+    $("#about_container").css("display","inherit");
+    $("#about_container").addClass("animated slideInLeft");
+    setTimeout(function(){
+        $("#about_container").removeClass("animated slideInLeft");
+    },800);
+}
+function closeabout(){
+    $("#about_container").addClass("animated slideOutLeft");
+    setTimeout(function(){
+        $("#about_container").removeClass("animated slideOutLeft");
+        $("#about_container").css("display","none");
+    },800);
+}
+function showwork(){
+    $("#work_container").css("display","inherit");
+    $("#work_container").addClass("animated slideInRight");
+    setTimeout(function(){
+        $("#work_container").removeClass("animated slideInRight");
+    },800);
+}
+function closework(){
+    $("#work_container").addClass("animated slideOutRight");
+    setTimeout(function(){
+        $("#work_container").removeClass("animated slideOutRight");
+        $("#work_container").css("display","none");
+    },800);
+}
+function showcontact(){
+    $("#contact_container").css("display","inherit");
+    $("#contact_container").addClass("animated slideInUp");
+    setTimeout(function(){
+        $("#contact_container").removeClass("animated slideInUp");
+    },800);
+}
+function closecontact(){
+    $("#contact_container").addClass("animated slideOutDown");
+    setTimeout(function(){
+        $("#contact_container").removeClass("animated slideOutDown");
+        $("#contact_container").css("display","none");
+    },800);
+}
+setTimeout(function(){
+    $("#loading").addClass("animated fadeOut");
+    setTimeout(function(){
+        $("#loading").removeClass("animated fadeOut");
+        $("#loading").css("display","none");
+        $("#box").css("display","none");
+        $("#about").removeClass("animated fadeIn");
+        $("#contact").removeClass("animated fadeIn");
+        $("#work").removeClass("animated fadeIn");
+    },1000);
+},1500);

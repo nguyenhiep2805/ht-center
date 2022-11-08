@@ -24,7 +24,7 @@ body:has(input[name="changeTheme"]:checked) p.description-text {
 }
 
 body:has(input[name="changeTheme"]:checked) a:hover {
-    color: var(--oxford-blue);
+    color: var(--white);
 }
 
 
