@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url(./variable.css);
 
 body {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
     url('https://i.imgur.com/THKXUzf.png') center center;
@@ -28,7 +28,7 @@ body {
     width: 50px;
     height: 50px;
     border: 12px solid #fff;
-    border-bottom: 12px solid rgb(255, 50, 50);
+    border-bottom: 12px solid var(--red-orange-color-wheel);
     border-radius: 50%;
     margin: 0;
 }
@@ -53,20 +53,20 @@ body {
     display: inline-block;
 }
 .box1 {
-    background: hsl(15, 100%, 55%);
+    background: var(--red-orange-color-wheel);
 }
 .box2 {
-    background: hsl(15, 100%, 55%);
+    background: var(--red-orange-color-wheel);
     margin-left: -5px;
 }
 #menu {
     width: 100%;
     text-align: center;
-    margin: 6vh 0px;
+    margin: 6vh 0;
     display: none;
 }
 #menu a {
-    margin: 0px 6%;
+    margin: 0 6%;
     font-size: 19px;
     color: #fff;
     text-decoration: underline;
@@ -85,7 +85,7 @@ body {
     padding-bottom: 10vh;
 }
 #middle h1 {
-    color: hsl(15, 100%, 55%);
+    color: var(--red-orange-color-wheel);
     font-size: 60px;
     text-decoration: underline;
 }
@@ -105,7 +105,7 @@ body {
     justify-content: center;
     z-index: 4;
     transition: 0.4s ease-in-out;
-    border-radius: 0px 0px 100px 100px;
+    border-radius: 0 0 100px 100px;
 }
 #work {
     width: 10vw;
@@ -123,7 +123,7 @@ body {
     justify-content: center;
     z-index: 4;
     transition: 0.4s ease-in-out;
-    border-radius: 0px 0px 100px 100px;
+    border-radius: 0 0 100px 100px;
 }
 #contact {
     width: 10vw;
@@ -140,45 +140,27 @@ body {
     justify-content: center;
     z-index: 4;
     transition: 0.4s ease-in-out;
-    border-radius: 100px 100px 0px 0px;
+    border-radius: 100px 100px 0 0;
 }
 #about:hover {
-    background: hsl(15, 100%, 55%);
+    background: var(--red-orange-color-wheel);
     cursor: pointer;
 }
 #work:hover {
-    background: hsl(15, 100%, 55%);
+    background: var(--red-orange-color-wheel);
     cursor: pointer;
 }
 #contact:hover {
-    background: hsl(15, 100%, 55%);
+    background: var(--red-orange-color-wheel);
     cursor: pointer;
 }
-#middle table {
-    width: 30%;
-    margin: 6vh auto;
-}
-#middle table tr td {
-    text-align: center;
-}
-.social {
-    color: #fff;
-    font-size: 22px;
-    border-radius: 50%;
-    transition: 0.4s ease-in-out;
-    margin: 0px 8px;
-    text-align: center;
-}
-.social:hover {
-    cursor: pointer;
-    color: hsl(15, 100%, 55%);
-}
+
 .container {
     width: 90vw;
     height: 90vh;
     padding: 5vh 5vw;
-    background: hsl(15, 100%, 55%);
-    color: #fff;
+    background: var(--red-orange-color-wheel);
+    color: var(--white);
     z-index: 9;
     position: fixed;
     max-height: 100vh;
@@ -187,29 +169,16 @@ body {
 }
 .container div {
     font-size: 25px;
-    margin: 20px 0px;
+    margin: 20px 0;
     transition: 0.4s ease-in-out;
 }
 .container div:hover {
     cursor: pointer;
 }
 .container section {
-    margin: 8vh 0px;
+    margin: 8vh 0;
 }
-#used div {
-    font-size: 14px !important;
-    display: inline-block;
-    padding: 8px 10px;
-    border: 2px solid #fff;
-    margin: 0px 10px;
-    border-radius: 50px;
-}
-#used:hover {
-    cursor: text;
-}
-#used div:hover {
-    cursor: text;
-}
+
 .container h1 {
     font-size: 60px;
     text-decoration: underline;
@@ -220,9 +189,9 @@ body {
 .btn_one {
     font-size: 18px;
     font-family: 'Nunito', sans-serif;
-    color: #fff;
+    color: var(--white);
     background: transparent;
-    border: 3px solid #fff;
+    border: 3px solid var(--white);
     padding: 8px 40px;
     border-radius: 80px;
     font-weight: bold;
@@ -231,15 +200,15 @@ body {
 }
 .btn_one:hover {
     cursor: pointer;
-    color: hsl(15, 100%, 55%);
-    background: #fff;
+    color: var(--red-orange-color-wheel);
+    background: var(--white);
 }
 .btn_two {
     font-size: 18px;
     font-family: 'Nunito', sans-serif;
-    color: hsl(15, 100%, 55%);
-    background: #fff;
-    border: 3px solid #fff;
+    color: var(--red-orange-color-wheel);
+    background: var(--white);
+    border: 3px solid var(--white);
     padding: 8px 40px;
     border-radius: 80px;
     font-weight: bold;
@@ -254,22 +223,21 @@ body {
     width: 46%;
     margin: 20px 1%;
     background: transparent;
-    border: 0px;
+    border: 0;
     border-bottom: 3px solid rgba(255, 255, 255, 0.5);
     padding: 8px 10px;
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
     transition: 0.4s ease-in-out;
-    color: #fff;
+    color: var(--white);
     font-weight: bold;
 }
 .container form textarea {
     width: 96%;
     margin: 20px 1%;
     padding: 8px 10px;
-    border: 0px;
+    border: 0;
     border-bottom: 3px solid rgba(255, 255, 255, 0.5);
-    padding: 8px 10px;
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
     background: transparent;
@@ -301,7 +269,7 @@ body {
     font-weight: bold;
 }
 #footer a {
-    color: hsl(15, 100%, 55%);
+    color: var(--red-orange-color-wheel);
 }
 #particles-js {
     position: fixed;
@@ -316,14 +284,14 @@ body {
     background: #fff;
 }
 ::-webkit-scrollbar-thumb {
-    background: hsl(15, 100%, 55%);
+    background: var(--red-orange-color-wheel);
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: hsl(15, 100%, 55%);
+    background: var(--red-orange-color-wheel);
 }
 ::selection {
     color: #fff;
-    background: hsl(15, 100%, 55%);
+    background: var(--red-orange-color-wheel);
 }
 
 @media (max-width: 800px) {
@@ -341,7 +309,7 @@ body {
     }
     #middle {
         width: 90vw;
-        padding: 0px 5vw;
+        padding: 0 5vw;
     }
     #middle table {
         width: 80%;
@@ -359,7 +327,7 @@ body {
         display: none !important;
     }
     .box2 {
-        margin-left: 0px !important;
+        margin-left: 0 !important;
     }
     #box div {
         width: 100%;
