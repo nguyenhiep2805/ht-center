@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a358e52-f218-49f9-9978-97abc7dc1263" name="Changes" comment="Update icon Contact Form">
+    <list default="true" id="6a358e52-f218-49f9-9978-97abc7dc1263" name="Changes" comment="Update icon Target">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thank-you.html" beforeDir="false" afterPath="$PROJECT_DIR$/thank-you.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +76,7 @@
       <workItem from="1667995508930" duration="1724000" />
       <workItem from="1668435245847" duration="4381000" />
       <workItem from="1668756210217" duration="1067000" />
-      <workItem from="1669121796446" duration="5232000" />
+      <workItem from="1669121796446" duration="5507000" />
     </task>
     <task id="LOCAL-00001" summary="4th commit">
       <created>1667644228618</created>
@@ -244,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669127665060</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Update icon Target">
+      <created>1669128010687</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1669128010687</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +293,7 @@
     <MESSAGE value="Update social media" />
     <MESSAGE value="Update icon Zalo" />
     <MESSAGE value="Update icon Contact Form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update icon Contact Form" />
+    <MESSAGE value="Update icon Target" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update icon Target" />
   </component>
 </project>
