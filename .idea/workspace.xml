@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a358e52-f218-49f9-9978-97abc7dc1263" name="Changes" comment="Update icon Contact Form">
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2H3vPWZWxjidfPgFk5SPgDDXdT2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/HT Centter/ht-center&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HT Centter\ht-center\" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a358e52-f218-49f9-9978-97abc7dc1263" name="Changes" comment="" />
+      <created>1667526561473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667526561473</updated>
+      <workItem from="1667526564033" duration="1120000" />
+      <workItem from="1667539938376" duration="372000" />
+      <workItem from="1667643363988" duration="1101000" />
+      <workItem from="1667739213060" duration="2025000" />
+      <workItem from="1667742175919" duration="20775000" />
+      <workItem from="1667793498164" duration="2125000" />
+      <workItem from="1667833042633" duration="3602000" />
+      <workItem from="1667837217825" duration="3882000" />
+      <workItem from="1667841213992" duration="3161000" />
+      <workItem from="1667899062130" duration="6405000" />
+      <workItem from="1667916099409" duration="3817000" />
+      <workItem from="1667995508930" duration="1724000" />
+      <workItem from="1668435245847" duration="4381000" />
+      <workItem from="1668756210217" duration="1067000" />
+      <workItem from="1669121796446" duration="5232000" />
+    </task>
+    <task id="LOCAL-00001" summary="4th commit">
+      <created>1667644228618</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667644228618</updated>
+    </task>
+    <task id="LOCAL-00002" summary="6th commit">
+      <created>1667759125925</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667759125925</updated>
+    </task>
+    <task id="LOCAL-00003" summary="7th commit">
+      <created>1667759303755</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667759303755</updated>
+    </task>
+    <task id="LOCAL-00004" summary="10th commit">
+      <created>1667760114862</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667760114862</updated>
+    </task>
+    <task id="LOCAL-00005" summary="11th commit">
+      <created>1667760311993</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667760311993</updated>
+    </task>
+    <task id="LOCAL-00006" summary="12th commit">
+      <created>1667760533663</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667760533663</updated>
+    </task>
+    <task id="LOCAL-00007" summary="13th commit">
+      <created>1667763028329</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667763028329</updated>
+    </task>
+    <task id="LOCAL-00008" summary="14th commit">
+      <created>1667763167049</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667763167049</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update dark mode">
+      <created>1667794047130</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667794047130</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update profile">
+      <created>1667841835114</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667841835114</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update images">
+      <created>1667841924327</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667841924327</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update images">
+      <created>1667841983883</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667841983883</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update images 2">
+      <created>1667842655207</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667842655207</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Update images 3">
+      <created>1667843457588</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667843457588</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Update Skills">
+      <created>1667844368225</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667844368225</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Update Profile">
+      <created>1667910083339</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667910083339</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Update Profile 2">
+      <created>1667910360717</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667910360717</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update instructor">
+      <created>1667910722747</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667910722747</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Update images">
+      <created>1667917256702</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1667917256702</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Update links">
+      <created>1667917794860</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1667917794860</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Update contact form">
+      <created>1667918927717</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1667918927717</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Update social media">
+      <created>1667920025201</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1667920025201</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Update icon Zalo">
+      <created>1667920081592</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1667920081592</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Update icon Contact Form">
+      <created>1669127665060</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1669127665060</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="4th commit" />
+    <MESSAGE value="6th commit" />
+    <MESSAGE value="7th commit" />
+    <MESSAGE value="10th commit" />
+    <MESSAGE value="11th commit" />
+    <MESSAGE value="12th commit" />
+    <MESSAGE value="13th commit" />
+    <MESSAGE value="14th commit" />
+    <MESSAGE value="Update dark mode" />
+    <MESSAGE value="Update profile" />
+    <MESSAGE value="Update images 2" />
+    <MESSAGE value="Update images 3" />
+    <MESSAGE value="Update Skills" />
+    <MESSAGE value="Update Profile" />
+    <MESSAGE value="Update Profile 2" />
+    <MESSAGE value="Update instructor" />
+    <MESSAGE value="Update images" />
+    <MESSAGE value="Update links" />
+    <MESSAGE value="Update contact form" />
+    <MESSAGE value="Update social media" />
+    <MESSAGE value="Update icon Zalo" />
+    <MESSAGE value="Update icon Contact Form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update icon Contact Form" />
+  </component>
+</project>
